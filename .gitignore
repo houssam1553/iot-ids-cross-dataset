@@ -1,0 +1,9 @@
+# datasets are large and have their own licences - never commit them
+data/
+*.csv.zip
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+# results/ IS committed (small CSV/MD/PNG) so readers can check the numbers
